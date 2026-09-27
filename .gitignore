@@ -1,0 +1,17 @@
+```gitignore
+# 依存ライブラリ
+node_modules/
+dist/
+
+# 環境変数・APIキー（超重要）
+.env
+.env.*
+
+# ログファイル（生成された対話ログ・ダイジェスト）
+logs/
+*.log
+
+# OS・エディタ設定ファイル
+.DS_Store
+.vscode/
+.idea/

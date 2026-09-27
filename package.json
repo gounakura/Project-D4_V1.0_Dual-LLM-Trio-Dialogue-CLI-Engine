@@ -1,0 +1,19 @@
+{
+  "name": "d4-project-3rd-duo_AA_01_2026_09_27_AA_01",
+  "version": "3.1.0",
+  "description": "D4 Project: Dual-LLM Trio Dialogue CLI Engine",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@google/genai": "^2.22.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
